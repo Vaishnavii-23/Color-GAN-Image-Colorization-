@@ -56,7 +56,7 @@ To develop a Conditional GAN that colorizes grayscale images into realistic RGB 
 ---
 
 ##  Dataset Structure
-
+```bash
 dataset/
 ├── color/
 │ ├── image1.jpg
@@ -64,6 +64,8 @@ dataset/
 └── grayscale/
 ├── image1.jpg
 └── ...
+```
+
 >  Only 10 images used to simulate a low-data setup.
 
 ---
@@ -76,6 +78,28 @@ dataset/
 git clone https://github.com/yourusername/cgan-image-colorization.git
 cd cgan-image-colorization
 pip install -r requirements.txt
-
+```
+---
 ▶️ Run the Notebook
 Launch notebooks/cgan_colorization.ipynb in Google Colab and you're good to go!
+
+---
+## Learnings
+Built a custom cGAN from scratch 
+Trained on a tiny dataset — yet got vivid results
+
+Understood GAN internals: generator, discriminator, adversarial loss
+
+---
+## Limitations & Future Work
+Dataset is very small (10 images)
+
+No perceptual loss used (could improve realism)
+
+Future goals:
+
+Add perceptual loss (e.g., VGG)
+
+Use larger, diverse dataset
+
+Explore alternative GAN architectures (Pix2PixHD etc.)
