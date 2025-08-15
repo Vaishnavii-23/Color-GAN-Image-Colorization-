@@ -7,6 +7,7 @@ Welcome to this image colorization project, where grayscale images get their gro
 ##  Project Overview
 
 > “Color is a power which directly influences the soul.” — Wassily Kandinsky  
+
 This project explores **automatic colorization** of grayscale images using a deep learning model trained on a **small custom dataset**. It leverages the adversarial magic of GANs to generate RGB images from grayscale inputs — sharper and more vivid than traditional pixel-wise techniques.
 
 ---
